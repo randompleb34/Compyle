@@ -19,7 +19,8 @@ Compyle is a Python 3 G-Code post-processor for 3D models sliced in Ultimaker Cu
   1. Create a custom Ultimaker Cura 5.9+ printer.
   2. Fill in the proper settings:
        - XYZ dimensions can be changed according to available print volume
-       - Set Build Plate Shape = Rectangular
+       - Set Build Plate Shape = `#ffffff` Rectangular
+       - 
 
   <img width="787" alt="Screenshot 2024-11-21 at 10 16 19 AM" src="https://github.com/user-attachments/assets/5edc7f02-27bd-4a8e-9b69-52c101404908">
 
