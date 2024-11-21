@@ -22,13 +22,12 @@ Compyle is a Python 3 G-Code post-processor for 3D models sliced in Ultimaker Cu
      **Printer Tab:**
      
      Printer Settings:
-     - XYZ dimensions can be changed according to available print volume
-             - Set Build Plate Shape = **Rectangular**
-             - Origin at Center = **OFF**
-             - Heated Bed = **OFF**
-             - Heated Build Volume = **OFF**
-             - G-Code Flavor = **Marlin**
-             - Print
+         - XYZ dimensions can be changed according to available print volume
+         - Set Build Plate Shape = **Rectangular**
+         - Origin at Center = **OFF**
+         - Heated Bed = **OFF**
+         - Heated Build Volume = **OFF**
+         - G-Code Flavor = **Marlin**
      
         Printhead Settings:
              - Apply Extruder Offset to G-Code = **OFF**
