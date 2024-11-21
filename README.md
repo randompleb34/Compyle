@@ -98,6 +98,9 @@ Compyle is a Python 3 G-Code post-processor for 3D models sliced in Ultimaker Cu
         End G-code
              Copy and paste the Start G-Code below:
 
+     <details>
+          <summary>End G-Code</summary>
+   
             G1 X0.000000 Y0.000000
             G91 ;relative
             G1 Z0.200000
@@ -683,6 +686,8 @@ Compyle is a Python 3 G-Code post-processor for 3D models sliced in Ultimaker Cu
             		FILECLOSE
             ENDDFS
      
+     </details>
+     
      <img width="787" alt="Screenshot 2024-11-21 at 10 16 19 AM" src="https://github.com/user-attachments/assets/5edc7f02-27bd-4a8e-9b69-52c101404908">
      
      **Extruder 1 Tab:**
@@ -692,7 +697,7 @@ Compyle is a Python 3 G-Code post-processor for 3D models sliced in Ultimaker Cu
 
      <img width="782" alt="Screenshot 2024-11-21 at 10 16 29 AM" src="https://github.com/user-attachments/assets/f62814e5-54a8-45d2-b93d-5d3cac7c1ba8">
 
-  3. Slice the file like normal and export as G-Code.
+  4. Slice the file like normal and export as G-Code.
          Note: Make sure to turn of print cooling fan setting.
   6. Using Compyle, input the name of your orginal file under **#Main Program** and change variables accordingly:
 
