@@ -30,12 +30,13 @@ Compyle is a Python 3 G-Code post-processor for 3D models sliced in Ultimaker Cu
        - Heated Build Volume = **OFF**
        - G-Code Flavor = **Marlin**
      
-        Printhead Settings:
-             - Apply Extruder Offset to G-Code = **OFF**
-             - Leave all else = **default**
-
-        Start G-code:
-             Copy and paste the Start G-Code from the file above
+     Printhead Settings:
+       
+       - Apply Extruder Offset to G-Code = **OFF**
+       - Leave all else = **default**
+     
+     Start G-code:
+         Copy and paste the Start G-Code below
 
         End G-code
              Copy and paste the Start G-Code from the file above
