@@ -1,0 +1,50 @@
+DVAR $hFile
+DVAR $cCheck
+DVAR $press
+DVAR $length
+DVAR $lame
+DVAR $comport
+DVAR $vacpress
+DVAR $FORLOOP
+DVAR $OUTER
+DVAR $Xnow
+DVAR $Ynow
+DVAR $Znow
+DVAR $Cnow
+DVAR $Bnow
+DVAR $Anow
+DVAR $Var1
+DVAR $Var2
+DVAR $Var3
+DVAR $Var4
+DVAR $Var5
+DVAR $Var6
+DVAR $Var7
+DVAR $Var8
+DVAR $Var9
+DVAR $Pos
+DVAR $Pre
+DVAR $alicatFiles[2]
+DVAR $nordsonFiles[2]
+
+
+
+$DO0.0=0
+$DO1.0=0
+$DO2.0=0
+$DO3.0=0
+
+Primary ;
+G65 F2000; accel speed mm/s^2
+G66 F2000;accel speed mm/s^2
+
+
+Call open_communication_nordson_updated P0 Q31
+G90 ;absolute
+G92 X0.000000 Y0.000000 ;set home
+;Setting units to mm/s
+G76
+G1 F20.0
+Call set_pressure_nordson_updated P0 Q65.0
+
+;Translater Call ID
