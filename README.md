@@ -39,6 +39,8 @@ Compyle is a Python 3 G-Code post-processor for 3D models sliced in Ultimaker Cu
          Copy and paste the Start G-Code below:
 
      <summary>Tips for collapsed sections</summary>
+
+     </details>
      
 
         End G-code
